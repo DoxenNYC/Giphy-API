@@ -1,0 +1,56 @@
+body {
+	background-image: url("http://onescene.info/wp-content/uploads/2018/11/wallpaper-on-hipwallpaper-killing-rhhipwallpapercom-maple-court-viewed-from-above-u-stock-rhdepositphotoscom-maple-basketball-hardwood-floor-background-court-viewed-from-above.jpg");
+	background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+	margin-bottom: 0px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 35px;
+	font-family: 'Squada One', cursive;
+	color: white;
+}
+p{
+	font-family: 'Squada One', cursive;
+	color: white;
+
+}
+#playerButtons{
+	float: center;
+	margin: auto;
+	margin-bottom: 25px;
+	padding: 5px 20px;
+	margin: 0 10px 10px 0;
+}
+#playerImg{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+form{
+	margin: auto;
+	width: 25%;
+	font-size: 18px;
+}
+
+#addPlayers {
+	float: center;
+	font-family: 'Squada One', cursive;
+	font-size: 22px;
+	border-radius: 25px;
+}
+
+#jumbotron {
+	background-color: rgba(78, 78, 78, 0.384);
+}
+
+#submit {
+	font-family: 'Squada One', cursive;
+	font-size: 22px;
+}
+
+#submit:hover {
+	background-color: goldenrod;
+}
