@@ -1,32 +1,24 @@
 <!DOCTYPE html>
+<html>
 <head>
-    <title>Giphy API</title>
-    <script src="https://code.jquery.com/jquery-3.3.1.js"
-   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-   <link href="https://fonts.googleapis.com/css?family=Squada+One" rel="stylesheet">
-   <link rel="stylesheet" href="assets\style.css"/> 
+	<title>Basketball Player GIFs</title>
+	<link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets\style.css">
 </head>
 <body>
-    <h1>NBA Player GIF Library</h1>
+	<div class="wrapper">
+        <h1>Signature Moves</h1>
+        <h2>view GIFs of your favorite basketball players</h2>
+		<div id="button-group"></div>
 
-    <div id="playerButtons">
-		
-    </div>
-    
-    <form>
-            <input id="addPlayers" name="favorite-player" placeholder="Add Your Favorite Player" type="text"> 
-				<input id="submit" type="submit" class="btn btn-dark">		
-        
-        </form>
-		<br>
-		<br>
-          <div id="jumbotron" class="jumbotron container">
-                <div id="playerImg">
+		<form>
+			<input id="new-player-input" type="text" placeholder="Add a player">
+			<button id="add-player-button" type="submit">Submit</button>
+		</form>
 
-                </div>
-          </div> 
-    	<script type="text/javascript" src="assets\logic.js"></script>
+		<div id="players-group"></div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	<script src="assets\logic.js"></script>
 </body>
 </html>

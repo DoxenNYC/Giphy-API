@@ -1,56 +1,95 @@
 body {
-	background-image: url("http://onescene.info/wp-content/uploads/2018/11/wallpaper-on-hipwallpaper-killing-rhhipwallpapercom-maple-court-viewed-from-above-u-stock-rhdepositphotoscom-maple-basketball-hardwood-floor-background-court-viewed-from-above.jpg");
-	background-size:     cover;                      /* <------ */
-    background-repeat:   no-repeat;
-    background-position: center center;
-	margin-bottom: 0px;
+	background: rgb(81, 64, 231);
 }
-h1{
-    text-align: center;
-    margin-bottom: 35px;
-	font-family: 'Squada One', cursive;
+
+h1 {
+	font-size: 70px;
+	margin-bottom: 15px;
+	color: white;
+	font-family: 'Luckiest Guy', cursive;
+
+}
+
+h2 {
+	font-family: 'Luckiest Guy', cursive;
+	color: white;
+
+}
+
+.wrapper {
+	margin: 60px 0 60px 60px;
+}
+
+.player-button {
+	font-size: 14px;
+	background: rgb(9, 2, 102);
+	color: white;
+	border: none;
+	padding: 10px 15px;
+	margin: 6px;
+	border-radius: 10px;
+}
+
+.player-button:hover {
+	background: rgb(202, 179, 105);
 	color: white;
 }
-p{
-	font-family: 'Squada One', cursive;
+.player-button:active {
+	background: rgb(202, 179, 105);
 	color: white;
-
-}
-#playerButtons{
-	float: center;
-	margin: auto;
-	margin-bottom: 25px;
-	padding: 5px 20px;
-	margin: 0 10px 10px 0;
-}
-#playerImg{
-    display: flex;
-    flex-wrap: wrap;
-    width: 80%;
 }
 
-form{
-	margin: auto;
-	width: 25%;
-	font-size: 18px;
+#add-player-button {
+	font-size: 14px;
+	color: white;
+	background: rgb(1, 204, 1);
+	border: none;
+	padding: 10px 15px;
+	margin: 6px;
+	border-radius: 10px;
 }
 
-#addPlayers {
-	float: center;
-	font-family: 'Squada One', cursive;
-	font-size: 22px;
-	border-radius: 25px;
+#add-player-button:hover {
+	background: green;
+}
+#add-player-button:active {
+	background: green;
 }
 
-#jumbotron {
-	background-color: rgba(78, 78, 78, 0.384);
+#new-player-input {
+	padding: 10px 15px;
+	font-size: 14px;
+	border: none;
+	border-radius: 10px;
+	color: white;
 }
 
-#submit {
-	font-family: 'Squada One', cursive;
-	font-size: 22px;
+#button-group {
+	margin-right: 20px;
+	margin-bottom: 15px;
 }
 
-#submit:hover {
-	background-color: goldenrod;
+.outcome-container {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 30px;
+}
+
+.outcome-container {
+	margin: 30px 30px 0 0;
+}
+
+.outcome {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+p {
+	font-size: 13px;
+	color: white;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	margin: 0 0 6px 4px;
+	font-family: 'Luckiest Guy', cursive;
 }
